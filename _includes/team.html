@@ -7,9 +7,9 @@
                     <h3 class="section-subheading text-muted"></h3>
                 </div>
             </div>
-            <div class="row">
+            <div id="team-img-wrapper">
+                <div class="row">
                 {% for member in site.people %}
-                <div id="team-img-wrapper">
                     <div class="col-sm-2">
                         <div class="team-member">
                             <img src="img/team/{{ member.pic }}.png" class="img-responsive img-circle" alt="">
@@ -27,7 +27,6 @@
                         </div>
                     </div>
                 </div>
-                {% endfor %}
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
