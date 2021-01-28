@@ -638,6 +638,7 @@ section h3.section-subheading {
 }
 
 .team-member img {
+    display: inline-block: 
     margin: 0 auto;
     border: 7px solid #fff;
 }
