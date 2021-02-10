@@ -699,14 +699,14 @@ section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
-    color: #bbb;
+    color: #fff;
 }
 
 section#contact:-moz-placeholder {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
-    color: #bbb;
+    color: #fff;
 }
 
 section#contact::-moz-placeholder {
